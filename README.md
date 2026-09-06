@@ -27,6 +27,7 @@ This project allows you to deploy a **VLESS proxy** server over **WebSocket** us
 ### `config.json`
 ```json
 {
+  "{
   "inbounds": [
     {
       "port": 8080,
@@ -34,7 +35,7 @@ This project allows you to deploy a **VLESS proxy** server over **WebSocket** us
       "settings": {
         "clients": [
           {
-            "id": "a3b7de87-b46f-4dcf-b6ed-5bf5ebe83167",
+            "id": "ab849056-41f6-4106-82ca-66146d657df2",
             "level": 0
           }
         ],
@@ -43,18 +44,19 @@ This project allows you to deploy a **VLESS proxy** server over **WebSocket** us
       "streamSettings": {
         "network": "ws",
         "wsSettings": {
-          "path": "/t.me/ragnarservers"
+          "path": "/@dososdrido464"
         }
       }
     }
   ],
   "outbounds": [
     {
-      "protocol": "freedom"
+      "protocol": "freedom",
+      "settings": {}
     }
   ]
 }
-````
+
 
 > 🔐 Replace the UUID with your own for security.
 
@@ -144,7 +146,7 @@ This project is licensed under the **MIT License**.
 
 ## 👤 Author
 
-Made with ❤️ by [Ragnar](https://t.me/not_ragnar)
+Made with ❤️ by [Ragnar](hr @dososdrido464)
 
 ---
 
